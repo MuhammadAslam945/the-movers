@@ -94,7 +94,7 @@
                                                 <select name="service_location_id" id="service_location_id" class="form-control">
                                                     <option value="all" selected>@lang('view_pages.all')</option>
                                                     @foreach($services as $key=>$service)
-                                                        <option value="{{$service->id}}">{{$service->name}}&nbsp;{{$service->id}}</option>
+                                                        <option value="{{$service->id}}">{{$service->name}}</option>
                                                     @endforeach
                                                 </select>
                                             </div>
